@@ -1,14 +1,10 @@
-jQuery(function($) {
-    $('html').removeClass('nojs');
-    $('html').addClass('hasjs');
-  });
+document.getElementById("subbutton").addEventListener("click", function(submitted) {
 
-  document.getElementById("subbutton").addEventListener("click", function(submitted) {
-
-    if(inputs()&&checks()){
-
+    if(inputs()){
+        
     }
-    inputs(){
+});
+    function inputs(){
         fname=document.getElementById("fname").value;
         lname=document.getElementById("lname").value;
         email=document.getElementById("email").value;
@@ -17,13 +13,14 @@ jQuery(function($) {
 
         if(!fname||!lname||!email||!dob){
             alert("Please fill in all the fields.");
+            return false
         }
-
+        return true
     }
 
-    checks(){
+    function checks(){
         
 
     }
 
-  }
+  
