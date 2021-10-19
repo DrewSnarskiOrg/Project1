@@ -19,7 +19,17 @@ document.getElementById("subbutton").addEventListener("click", function(submitte
     }
 
     function checks(){
-        
+        if(!document.getElementById("tandc").checked){
+            alert("Please read the terms and conditions");
+            return false;
+        }
+        else if(!document.getElementById("age").checked){
+            alert("Please check if you are over 16 years old");
+            return false;
+          }
+          else{
+            return true;
+          }
 
     }
 
