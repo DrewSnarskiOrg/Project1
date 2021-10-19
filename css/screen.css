@@ -1,0 +1,50 @@
+html{
+   
+}
+header{
+    
+}
+body{
+   
+}
+h1{
+   
+}
+input, label{
+  
+}
+input{
+   
+}
+
+@media only screen and (min-width : 480px) {
+    html{
+        
+    }
+    input{
+        
+    }
+    label{
+        
+    }
+    input, label{
+      
+    }
+    
+}
+
+@media only screen and (min-width : 992px) {
+    html{
+        
+    }
+    input{
+        
+    }
+    label{
+        
+    }
+    input, label{
+      
+    }
+    
+}
