@@ -4,7 +4,8 @@ html{
    font-size: 1.2em;
 }
 header{
-    
+    padding: .6em;
+    background-color: red;
 }
 body{
    background-color: lightgrey;
@@ -16,6 +17,8 @@ h1{
 h3{
     font-size: 1.15em;
     text-align: center;
+    padding: .5em;
+    background-color: silver;
 }
 input, label{
     margin: auto; 
@@ -25,6 +28,18 @@ input, label{
 input{
     padding: .5em;
 }
+label{
+    padding: .5em;
+}
+input[type='checkbox'] {
+    float: left;
+    width: 20px;
+    margin-left: 8%;
+    margin-top: 1em;
+  }
+#check{
+    padding-top: .66em;
+}
 #subbutton{
     margin-top: 1em;
     width: 65%;
@@ -32,6 +47,7 @@ input{
  #wrapper{
     display: block;
     margin: auto;
+    padding-top: 1em;
 }
 
 @media only screen and (min-width : 480px) {
