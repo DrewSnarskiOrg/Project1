@@ -1,8 +1,13 @@
+document.getElementById("tandc").disabled = true;
 document.getElementById("subbutton").addEventListener("click", function(submitted) {
+    submitted.preventDefault();
 
-    if(inputs()){
+    if(inputs()&&checks()){
         
     }
+});
+document.getElementById("terms").addEventListener("click", function(didread) {
+    document.getElementById("tandc").disabled = false;
 });
     function inputs(){
         fname=document.getElementById("fname").value;
