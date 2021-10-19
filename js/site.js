@@ -3,7 +3,14 @@ document.getElementById("subbutton").addEventListener("click", function(submitte
     submitted.preventDefault();
 
     if(inputs()&&checks()){
-        
+    section = document.getElementById("wrapper");
+    section.innerHTML = "";
+    thanks = document.createElement("h2");
+    thanks.innerHTML = "Thank you for signing up for our newsletter!";
+    confirms = document.createElement("h2");
+    confirms.innerHTML = "We will see you soon!"
+    section.appendChild(thanks);
+    section.appendChild(confirms);
     }
 });
 document.getElementById("terms").addEventListener("click", function(didread) {
@@ -14,7 +21,7 @@ document.getElementById("terms").addEventListener("click", function(didread) {
         lname=document.getElementById("lname").value;
         email=document.getElementById("email").value;
         dob=document.getElementById("dob").value;
-
+        
 
         if(!fname||!lname||!email||!dob){
             alert("Please fill in all the fields.");
@@ -37,5 +44,5 @@ document.getElementById("terms").addEventListener("click", function(didread) {
           }
 
     }
-
+ 
   
