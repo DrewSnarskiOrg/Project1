@@ -37,7 +37,7 @@ input[type='checkbox'] {
     margin-left: 8%;
     margin-top: .9em;
 }
-#check{
+.check{
     padding-top: .66em;
 }
 #subbutton{
@@ -69,10 +69,10 @@ input[type='checkbox'] {
     input, label{
         display: block;
     }
-    #check{
+    .check{
         padding-top: 1em;
     }
-    #checklabel{
+    .checklabel{
         width: 25em;
     }
     #subbutton{

@@ -3,7 +3,7 @@ jQuery(function($) {
     $('html').addClass('hasjs');
   });
 
-  document.getElementById("submit").addEventListener("click", function(submitted) {
+  document.getElementById("subbutton").addEventListener("click", function(submitted) {
 
     if(inputs()&&checks()){
 
