@@ -36,7 +36,7 @@ input[type='checkbox'] {
     width: 20px;
     margin-left: 8%;
     margin-top: .9em;
-  }
+}
 #check{
     padding-top: .66em;
 }
@@ -88,16 +88,14 @@ input[type='checkbox'] {
 
 @media only screen and (min-width : 992px) {
     html{
-        
+       font-size: 1.3em; 
     }
-    input{
-        
+    input[type='checkbox'] {
+        margin-left: 18em;
+        margin-right: 1em;
     }
-    label{
-        
-    }
-    input, label{
-      
+    #wrapper{
+        width: 50em;
     }
     
 }
