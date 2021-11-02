@@ -1,6 +1,6 @@
 html{
-   line-height: 2em;
-   font-size: 1.2em;
+   line-height: 2em; /* 32 px */
+   font-size: 1.2em; /* 19.2 px */
    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
 }
 header{
